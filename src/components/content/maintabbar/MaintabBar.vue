@@ -1,6 +1,6 @@
 <template>
   <tab-bar>
-    <tab-bar-item path="/home" activeColor="blue">
+    <tab-bar-item path="/home" activeColor="#ff8198">
       <img slot="item-icon" src="~assets/img/tabbar/home.svg" alt="" />
       <img
         slot="item-icon-active"
@@ -9,7 +9,7 @@
       />
       <div slot="item-text">首页</div>
     </tab-bar-item>
-    <tab-bar-item path="/all" activeColor="blue">
+    <tab-bar-item path="/all" activeColor="#ff8198">
       <img slot="item-icon" src="~assets/img/tabbar/all.svg" alt="" />
       <img
         slot="item-icon-active"
@@ -18,7 +18,7 @@
       />
       <div slot="item-text">分类</div>
     </tab-bar-item>
-    <tab-bar-item path="/cart" activeColor="blue">
+    <tab-bar-item path="/cart" activeColor="#ff8198">
       <img slot="item-icon" src="~assets/img/tabbar/cart-Empty.svg" alt="" />
       <img
         slot="item-icon-active"
@@ -27,7 +27,7 @@
       />
       <div slot="item-text">购物车</div>
     </tab-bar-item>
-    <tab-bar-item path="/user" activeColor="blue">
+    <tab-bar-item path="/user" activeColor="#ff8198">
       <img slot="item-icon" src="~assets/img/tabbar/user.svg" alt="" />
       <img
         slot="item-icon-active"
